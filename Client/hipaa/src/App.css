@@ -1,0 +1,273 @@
+#headings {
+  padding: 0 10px;
+}
+#margins {
+  margin-left: 100px;
+}
+#center {
+  text-align: center;
+}
+#center a {
+  text-decoration: none;
+  color: #ff2d50;
+}
+.main {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.logo {
+  width: 15%;
+  padding: 10px 20px;
+}
+.square {
+  width: 60%;
+  padding: 0 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  word-break: break-all;
+}
+.field {
+  width: 80%;
+}
+.input-container {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  right: 10px; /* change left to right */
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search {
+  width: 100%;
+  padding: 10px 0;
+}
+.finds {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+input[type="text"]:focus {
+  border-color: black;
+}
+.buttons {
+  width: 100%;
+  padding: 10px 0;
+}
+.button {
+  background-color: transparent; /* set the background color */
+  border: 1px solid black;
+  color: black; /* set the text color */
+  padding: 12px 24px; /* set the padding */
+  text-align: center; /* center the text */
+  text-decoration: none; /* remove the underline */
+  display: inline-block; /* set as inline block element */
+  font-size: 16px; /* set the font size */
+  cursor: pointer; /* change the cursor to pointer on hover */
+  margin-left: 15px; /* add margin to the right side */
+}
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.loginbutton {
+  width: 25%;
+  padding: 10px 10px; /* adjust the top and bottom padding */
+}
+.loginbuttoncss {
+  background-color: transparent; /* set the background color */
+  border: 1px solid black;
+  padding: 8px 30px; /* set the padding */
+  font-size: 16px; /* set the font size */
+  cursor: pointer; /* change the cursor to pointer on hover */
+}
+.loginbuttoncss a {
+  text-decoration: none;
+  color: black; /* set the text color */
+}
+
+.body {
+  width: 100%;
+}
+.services {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service1 {
+  width: 20%;
+  border: 1px solid black;
+}
+.service2 {
+  width: 20%;
+  border: 1px solid black;
+}
+.service3 {
+  width: 20%;
+  border: 1px solid black;
+}
+.service4 {
+  width: 20%;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+/* ////// Signup from////////// */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.input-highlight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+  background-color: #26a69a;
+}
+
+.form-error {
+  color: red;
+  margin-top: 5px;
+}
+
+.input:focus ~ .input-highlight {
+  transform: scaleX(1);
+}
+
+.input:focus ~ .label,
+.input:not(:placeholder-shown) ~ .label {
+  top: -20px;
+  font-size: 14px;
+  color: #26a69a;
+}
+
+button[type="submit"] {
+  background-color: #26a69a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.secondary {
+  background-color: #fff;
+  color: #26a69a;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.detailform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.card {
+  background: linear-gradient(to bottom, #fff 0%, #f7f7f7 100%);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  word-break: break-all;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 24px;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+
+}
+
+.card-description {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.buttons {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buttons:hover {
+  background-color: #222;
+}

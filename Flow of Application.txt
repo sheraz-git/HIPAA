@@ -1,0 +1,29 @@
+1: Frontend                                                               2: Backend
+   1:npx -create-react-app hippa                                             1: npm init -y
+   2:Login component (Sign up ,Login, and Dashboard)                         2: Folders : use MVC (Controller,Model,routes,helper)
+   3:Patient record (CRUD) usig redux                                        3: define models of user and patient records
+   4:redux for Crud of patient record                                        4: Make its controller Like User signup and login then add 
+   5: install third party dependies                                             Patient record
+   6: Packages:redux,thunk,devtool,cookies jwt decode                        5: Do crud (Post get put delete)
+                                                                             6: Make routes 
+                                                                             7: Connect with db using connect method
+                                                                             8: try catch for error handling
+                                                                             9: authantication using jwt
+                                                                             10: valite api request check using postman
+
+
+Flow: 
+1: User come on Home
+2: Click on login and signup button
+3: if have an account add email and password
+4: if not click on signup button to add details
+5: then agin go to home and click loginbutton and enter email and password
+6: then dashboard come after login 
+7: Now add read delete and update pateint record using rdux
+8: use cokkies for find token for frontend athentication
+9: use bcrypt for password and SSn number 
+10: Applyformik validation
+11: Proper use of error handling and validations and muuch more
+12: Cors ,bodyparser, axios ,"bcryptjs": cookie-parser"express": 
+13: dev-dependent
+"nodemon": 
